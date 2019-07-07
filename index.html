@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>fall_leaf_04_pixianimate</title>
+    <meta name="generator" content="PixiAnimate Extension">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        #container {
+            width: 90%;
+        }
+
+        h3 {
+            color: #ff0033;
+        }
+
+        div {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    </div>
+    <div id="conatiner">
+        <h1>PixiJS +</h1>
+        <h2>Adobe Animate</h2>
+        <p>use library: <a href="https://www.adobeexchange.com/creativecloud.details.14345.pixianimate.html"
+                target="_blank">
+                https://www.adobeexchange.com/creativecloud.details.14345.pixianimate.html</a><br>&nbsp;</p>
+        <canvas id="stage" width="384" height="384"></canvas>
+        <script src="libs/pixi.min.js"></script>
+        <script src="libs/pixi-animate.min.js"></script>
+        <script src="fall_leaf_04_pixianimate.js"></script>
+        <script>
+            var scene = new PIXI.animate.Scene(384, 384, {
+                view: document.getElementById("stage"),
+                backgroundColor: 0xffffff,
+                antialias: true
+            });
+            scene.load(lib.fall_leaf_04_pixianimate);
+        </script>
+        <p>I used it in the examples alpha animation, color transform, frame scripts, nested timelines.</p>
+    </div>
+</body>
+
+</html>
