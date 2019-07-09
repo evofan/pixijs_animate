@@ -35,19 +35,35 @@
         <h2>pixi-animate(Adobe Animate)</h2>
         <p>use library: <a href="https://www.adobeexchange.com/creativecloud.details.14345.pixianimate.html"
                 target="_blank">
-                https://www.adobeexchange.com/creativecloud.details.14345.pixianimate.html</a><br>&nbsp;</p>
-        <canvas id="stage" width="384" height="384"></canvas>
+                https://www.adobeexchange.com/creativecloud.details.14345.pixianimate.html</a></p>
+
         <script src="libs/pixi.min.js"></script>
         <script src="libs/pixi-animate.min.js"></script>
-        <script src="fall_leaf_04_pixianimate.js"></script>
-        <script>
-            var scene = new PIXI.animate.Scene(384, 384, {
-                view: document.getElementById("stage"),
-                backgroundColor: 0xffffff,
-                antialias: true
-            });
-            scene.load(lib.fall_leaf_04_pixianimate);
-        </script>
+
+        <div>
+            <canvas id="stage" width="384" height="384"></canvas>
+            <script src="fall_leaf_04_pixianimate.js"></script>
+            <script>
+                var scene = new PIXI.animate.Scene(384, 384, {
+                    view: document.getElementById("stage"),
+                    backgroundColor: 0xffffff,
+                    antialias: true
+                });
+                scene.load(lib.fall_leaf_04_pixianimate);
+            </script>
+            
+            <canvas id="stage2" width="384" height="384"></canvas>
+            <script src="fish_08_PixiAnimate.js"></script>
+            <script>
+                var scene2 = new PIXI.animate.Scene(384, 384, {
+                    view: document.getElementById("stage2"),
+                    backgroundColor: 0x0,
+                    antialias: true
+                });
+                scene2.load(lib.fish_08_PixiAnimate);
+            </script>
+        </div>
+
         <p>It used alpha animation, color transform, frame scripts, nested timelines, and classic motion guide.</p>
     </div>
 </body>
