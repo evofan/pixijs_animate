@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>fall_leaf_04_pixianimate</title>
+    <title>PixiJS + pixi-animate</title>
     <meta name="generator" content="PixiAnimate Extension">
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <style>
@@ -26,6 +26,10 @@
             margin-top: 30px;
         }
     </style>
+    <script src="libs/pixi.min.js"></script>
+    <script src="libs/pixi-animate.min.js"></script>
+    <script src="fall_leaf_04_pixianimate.js"></script>
+    <script src="fish_08_PixiAnimate.js"></script>
 </head>
 
 <body>
@@ -37,35 +41,14 @@
                 target="_blank">
                 https://www.adobeexchange.com/creativecloud.details.14345.pixianimate.html</a></p>
 
-        <script src="libs/pixi.min.js"></script>
-        <script src="libs/pixi-animate.min.js"></script>
-
         <div>
             <canvas id="stage" width="384" height="384"></canvas>
-            <script src="fall_leaf_04_pixianimate.js"></script>
-            <script>
-                var scene = new PIXI.animate.Scene(384, 384, {
-                    view: document.getElementById("stage"),
-                    backgroundColor: 0xffffff,
-                    antialias: true
-                });
-                scene.load(lib.fall_leaf_04_pixianimate);
-            </script>
-            
             <canvas id="stage2" width="384" height="384"></canvas>
-            <script src="fish_08_PixiAnimate.js"></script>
-            <script>
-                var scene2 = new PIXI.animate.Scene(384, 384, {
-                    view: document.getElementById("stage2"),
-                    backgroundColor: 0x0,
-                    antialias: true
-                });
-                scene2.load(lib.fish_08_PixiAnimate);
-            </script>
         </div>
 
         <p>It used alpha animation, color transform, frame scripts, nested timelines, and classic motion guide.</p>
     </div>
+    <script src="main.js"></script>
 </body>
 
 </html>
