@@ -28,6 +28,9 @@ In my case, I had to use this utility.
 [https://www.adobe.com/jp/products/animate.html](https://www.adobe.com/jp/products/animate.html)  
 ver. 19.2.1  
 
+**ayato@web Photoshop plugin Un-Multiply**  
+[http://www.ayatoweb.com/download/down04.html](http://www.ayatoweb.com/download/down04.html)  
+
 memo  
 <br>
 2byte文字は使わない  
