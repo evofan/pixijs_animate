@@ -1,5 +1,7 @@
 # Test playing timeline animation on PixiJS using PixiAnimate and Abobe Animate.
 
+![https://raw.githubusercontent.com/evofan/pixijs_animate/master/pic_screenshot_pixianimate.jpg](https://raw.githubusercontent.com/evofan/pixijs_animate/master/pic_screenshot_pixianimate.jpg "image")  
+
 **DEMO**  
 [https://evofan.github.io/pixijs_animate/](https://evofan.github.io/pixijs_animate/)  
 
