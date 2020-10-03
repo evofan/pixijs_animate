@@ -34,6 +34,6 @@ ver. 19.2.1
 [http://www.ayatoweb.com/download/down04.html](http://www.ayatoweb.com/download/down04.html)  
 
 memo  
-<br>
-2byte文字は使わない  
-（インストール時のPathや、Fla内のassset名やlayer名等）  
+
+Do not use 2-byte characters (Kanji, Katakana, etc.)  
+(Path at the time of installation, asset name and layer name in Fla, etc.)  
