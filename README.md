@@ -1,6 +1,7 @@
 # Test playing timeline animation on PixiJS using PixiAnimate and Abobe Animate.
 
-<img src="https://evofan.github.io/pixijs_animate/pic_screenshot_pixianimate.jpg" width="50%"> 
+<img src="https://evofan.github.io/pixijs_animate/screenshot/pic_dolphin_anime.jpg" width="50%"> 
+<img src="https://evofan.github.io/pixijs_animate/screenshot/pic_screenshot_pixianimate.jpg" width="50%"> 
 
 **DEMO**  
 [https://evofan.github.io/pixijs_animate/](https://evofan.github.io/pixijs_animate/)  
@@ -12,7 +13,7 @@ reference
 
 **Download / Install this extension using an Extension Install Utility**  
 [https://www.adobeexchange.com/creativecloud/install-instructions.14345.html](https://www.adobeexchange.com/creativecloud/install-instructions.14345.html)  
-In my case, I had to use this utility.  
+<s>In my case, I had to use this utility.</s>  
 
 **pixijs/pixi-animate**  
 [https://github.com/pixijs/pixi-animate](https://github.com/pixijs/pixi-animate)  
@@ -24,11 +25,15 @@ In my case, I had to use this utility.
 [https://github.com/pixijs/pixi-animate-extension](https://github.com/pixijs/pixi-animate-extension)  
 
 **Documentation**  
-[https://pixijs.io/pixi-animate/index.html](https://pixijs.io/pixi-animate/index.html)  
+<s>[https://pixijs.io/pixi-animate/index.html](https://pixijs.io/pixi-animate/index.html)</s>  
+[https://pixijs.io/animate/docs/](https://pixijs.io/animate/docs/)  
 
 **Adobe Animate**  
 [https://www.adobe.com/jp/products/animate.html](https://www.adobe.com/jp/products/animate.html)  
-ver. 19.2.1  
+<s>ver. 19.2.1</s>  
+Adobe Animate ver. 24.0  
+Pixi Animate ver. 2.0.3  
+PixiJS ver 6.0.3  
 
 **ayato@web Photoshop plugin Un-Multiply**  
 [http://www.ayatoweb.com/download/down04.html](http://www.ayatoweb.com/download/down04.html)  
