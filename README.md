@@ -5,7 +5,14 @@
 
 **DEMO**  
 [https://evofan.github.io/pixijs_animate/](https://evofan.github.io/pixijs_animate/)  
-
+　  
+　  
+examples  
+<img src="https://evofan.github.io/pixijs_animate/screenshot/pic_pixianimate_examples_03.jpg" width="50%"> 
+<img src="https://evofan.github.io/pixijs_animate/screenshot/pic_pixianimate_examples_04.jpg" width="50%"> 
+<img src="https://evofan.github.io/pixijs_animate/screenshot/pic_pixianimate_examples_05.jpg" width="50%"> 
+　  
+　  
 reference  
 
 **PixiAnimate Adobe extension**  
